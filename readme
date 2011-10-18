@@ -1,5 +1,7 @@
 v Git BASH:
 -dej se do slozky ve ktere budes pracovat
+-$git config --global user.name "Your Name"
+-$git config --global user.email mail@gmail.com
 -$ git init
 -$ touch readme
 -$ git add readme
