@@ -11,9 +11,25 @@ v Git BASH:
 Otevøi Git GUI
 -Open existing repository
 
-nahrani souboru z GITu: Remote->Fetch from->{origin}
-Spojeni soubotu se svyma: Merge->Local Merge->RADIO BUTTON Tracking Branch->{vybrat jaky}
-Zmena vetve: Branch->Checkout->RADIO BUTTON Tracking Branch->{vybrat jaky}
+**nahrani souboru z GITu: Remote->Fetch from->{origin}
+Zmena vetve: Branch->Checkout->RADIO BUTTON Local Branch->{vybrat jaky} (vetsinou master, pokud jiz nemate aktivni local branch)
+Spojeni soubotu se svyma: Merge->Local Merge->RADIO BUTTON Tracking Branch->{vybrat jaky} (vetsinou origin)
 
-Ctrl+T
 
+pak si normalne ve sve slozce kde jste si vytvorili projekt otevrete readme a zmente pod timto
+textem dalsi zmenu
+git gui
+-rescan
+-stage changed
+-potom do okna commit message napiste nejaky text ke commitu
+-sign off
+-commit
+-push
+vse by se melo uspesne nahrat na server, pokud nekdo mezitim co jste
+se to snazili pochopit to neudelal misto vas :-D
+jinak opakujte od ** , doufam ze to vsem pujde a brzo se do toho dostanete
+
+1.zmena - dexter - vse funguje, cekam ostatni
+2.zmena - nikdo
+3.zmena - nikdo
+4.zmena - nikdo
